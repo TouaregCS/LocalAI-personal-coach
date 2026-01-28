@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  ai-coach:
+    build: ..
+    container_name: ai-coach
+    env_file:
+      - ../.env
+    volumes:
+      - ../app:/app
+      - ../data:/data
+    command: python main.py
