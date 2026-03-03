@@ -1,5 +1,0 @@
-requests
-python-dotenv
-apscheduler
-chromadb
-python-telegram-bot

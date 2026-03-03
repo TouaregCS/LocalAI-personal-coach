@@ -1,4 +1,23 @@
 .env
+.venv/
 __pycache__/
 data/
 *.db
+*.pyc 
+
+dist/
+build/
+*.spec
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+thumbs.db
+.DS_Store
+
+logs/
+*.log
+
+

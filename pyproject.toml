@@ -1,0 +1,21 @@
+[project]
+name = "local-ai-personal-coach"
+version = "0.1.0"
+description = "Local AI personal coach for mindset and personality development."
+authors = [
+    {name = "TouaregCS",email = "touareg.netvor@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "apscheduler (>=3.11.2,<4.0.0)",
+    "chromadb (>=1.4.1,<2.0.0)",
+    "python-telegram-bot (>=22.6,<23.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
